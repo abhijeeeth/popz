@@ -26,7 +26,7 @@ const Navbar = () => {
 
       return (
         <nav className=" px-10 py-4 ">
-      <div className="container mx-auto flex justify-between items-center border-gray-100/10 border-b-2 drop-shadow-sm">
+      <div className="container mx-auto flex justify-between items-center border-gray-300 border-b-2 drop-shadow-sm">
 
    
      
@@ -63,31 +63,15 @@ const Navbar = () => {
             isOpen ? 'block' : 'hidden'
           } lg:flex lg:items-center lg:w-auto mr-8`}
           >
-          <div className="text-lg font-semibold lg:flex-grow">
-            <a
-              href="/"
-              className="block mt-4 lg:inline-block lg:mt-0 text-red-700 hover:text-red-900 mr-4"
-              >
-              Profile
-            </a>
-            
-           
-
-          </div>
+         
           <div className='flex items-center'>
-          <a
-              
-              rel="noopener noreferrer"
-              className="bg-gray-100/10 text-gray-100 px-4 py-2 rounded-md mb-2  ml-4 shadow-sm shadow-gray-900  hover:bg-slate-400"
-            >
-              Customer
-            </a>
+          
             <a
               
               rel="noopener noreferrer"
-              className="bg-gray-100/10  text-gray-100 px-4 py-2 rounded-md mb-2  ml-4 shadow-sm shadow-gray-900 font-semibold hover:bg-slate-400"
+              className="bg-gray-100/30  text-gray-900 px-4 py-2 rounded-md mb-2  ml-4 shadow-sm shadow-gray-900 font-semibold hover:bg-slate-400"
             >
-              Business
+              Business Loggin
             </a>
           </div>
         </div>

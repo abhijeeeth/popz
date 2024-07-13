@@ -36,8 +36,8 @@ const Card = ({ title, description, image }) => {
     >
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4">
-        <h2 className="text-xl font-bold mb-2 text-gray-100">{title}</h2>
-        <p className="text-gray-100">{description}</p>
+        <h2 className="text-xl font-bold mb-2 text-gray-900">{title}</h2>
+        <p className="text-gray-900">{description}</p>
       </div>
     </motion.div>
   );

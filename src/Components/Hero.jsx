@@ -17,7 +17,7 @@ const App = () => {
         <input
           type="text"
           placeholder="Search..."
-          className="w-full p-2 border border-gray-300/10 rounded mb-4 animate__animated animate__fadeIn bg-transparent"
+          className="w-full p-2 border border-gray-300 rounded mb-4 animate__animated animate__fadeIn bg-transparent"
         />
       </motion.div>
       <motion.div

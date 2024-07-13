@@ -1,4 +1,5 @@
 import './App.css';
+import PopzupInfo from './Components/About';
 import AdsList from './Components/AdsList';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
@@ -8,9 +9,10 @@ import TopLists from './Components/TopLists';
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-sky-950">
+    <div className="bg-gradient-to-r from-slate-100 to-sky-100">
      <Navbar/>
       <Hero/>
+      <PopzupInfo/>
     <TopCatagories/>
       <AdsList/>
       <TopLists/>

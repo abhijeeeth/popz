@@ -5,18 +5,18 @@ import { FaCar, FaBriefcase, FaHome, FaToolbox } from "react-icons/fa";
 import { MdTableBar } from "react-icons/md";
 
 const categories = [
-  { name: 'Electronics', icon: <FcElectronics className="text-white" /> },
-  { name: 'Cars', icon: <FaCar className="text-white" /> },
-  { name: 'Furniture', icon: <MdTableBar className="text-white" /> },
-  { name: 'Jobs', icon: <FaBriefcase className="text-white" /> },
-  { name: 'Real Estate', icon: <FaHome className="text-white" /> },
-  { name: 'Services', icon: <FaToolbox className="text-white" /> },
+  { name: 'Electronics', icon: <FcElectronics className="text-black" /> },
+  { name: 'Cars', icon: <FaCar className="text-black" /> },
+  { name: 'Furniture', icon: <MdTableBar className="text-black" /> },
+  { name: 'Jobs', icon: <FaBriefcase className="text-black" /> },
+  { name: 'Real Estate', icon: <FaHome className="text-black" /> },
+  { name: 'Services', icon: <FaToolbox className="text-black" /> },
 ];
 
 const Categories = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-mono drop-shadow-sm text-gray-500 font-bold text-center mb-8">
+      <h2 className="text-3xl font-mono drop-shadow-sm text-gray-900 font-bold text-center mb-8">
         Explore Categories
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -41,7 +41,7 @@ const CategoryCard = ({ icon, name }) => {
       transition={{ duration: 0.5 }}
     >
       <div className="text-5xl mb-4 ">{icon}</div>
-      <h3 className="text-xl font-semibold text-gray-100">{name}</h3>
+      <h3 className="text-xl font-semibold text-gray-900">{name}</h3>
     </motion.div>
   );
 };
